@@ -1,0 +1,12 @@
+{
+  "name": "mongo-date-to-youtube-date-converter",
+  "version": "1.1.0",
+  "description": "Converts MongoDb date to Youtube like date format",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gagandeep singh sehjal",
+  "license": "ISC"
+}
