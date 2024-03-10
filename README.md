@@ -13,7 +13,7 @@ To use this module, follow these steps:
 2. Import the function into your Node.js application:
     ```javascript
     // Import the function
-    const { convertMongoDateToYouTubeDate } = require('mongo-date-to-youtube-date-converter');
+    const { formatMongoDateToYouTubeDate } = require('mongo-date-to-youtube-date-converter');
     ```
 
 3. Define a MongoDB date string:
@@ -23,7 +23,7 @@ To use this module, follow these steps:
 
 4. Convert the MongoDB date to YouTube-like format:
     ```javascript
-    const youtubeDate = convertMongoDateToYouTubeDate(mongoDate);
+    const youtubeDate = formatMongoDateToYouTubeDate(mongoDate);
     ```
 
 5. Print the result:
